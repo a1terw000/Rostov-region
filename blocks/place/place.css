@@ -1,0 +1,15 @@
+.place {
+  margin-bottom: 77px;
+  list-style-type: none;
+  display: grid;
+  column-gap: 100px;
+  row-gap: 60px;
+  grid-template-areas:
+    "image title"
+    "image paragraph"
+    "image link";
+}
+
+.place:last-of-type {
+  margin-bottom: 202px;
+}

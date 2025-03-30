@@ -1,0 +1,6 @@
+.place__photo-right {
+  grid-template-areas:
+  "title image"
+  "paragraph image"
+  "link image";
+}

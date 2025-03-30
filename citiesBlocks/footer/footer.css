@@ -1,0 +1,4 @@
+.footer {
+  max-width: calc(100% - 180px);
+  margin: 0 auto;
+}

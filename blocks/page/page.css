@@ -1,7 +1,6 @@
 .page {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px;
-    font-family: "lame", sans-serif;
+    padding: 0;
     font-weight: 400;
-}
+  }

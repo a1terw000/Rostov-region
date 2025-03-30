@@ -1,0 +1,10 @@
+.footer__photoNOVOCH {
+  background-image: url(../../../images/Novoch/novoch8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1100px;
+  height: 740px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}

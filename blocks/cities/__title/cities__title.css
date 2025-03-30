@@ -1,0 +1,10 @@
+.cities__title {
+  max-width: 522px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #102746;
+  margin: 0 0 36px 0;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #006DFE;
+}

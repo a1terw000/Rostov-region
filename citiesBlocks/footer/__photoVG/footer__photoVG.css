@@ -1,0 +1,10 @@
+.footer__photoVG {
+  background-image: url(../../../images/volgodonsk/vg8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1100px;
+  height: 740px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}

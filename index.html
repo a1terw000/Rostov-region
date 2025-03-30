@@ -6,12 +6,97 @@
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Ростовская область</title>
 </head>
 <body class="body">
     <div class="page">
-        <p>123123</p>
+        <header class="header">
+            <div class="header__background">
+                <img class="header__logo" src="./images/Region/lightLogo.svg" alt="Россия">
+                <div class="header__info">
+                    <h1 class="header__title">Ростовская область</h1>
+                    <p class="header__subtitle">Ростовская область &mdash; регион юга России с богатой историей, развитой экономикой и уникальной культурой. В области протекает река Дон, символ края и важный источник жизни для региона.</p>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="lead">
+                <p class="lead__paragraph">Добро пожаловать в Ростовскую область &mdash; идеальное место для тех, кто хочет познакомиться с историей, культурой и природными красотами юга России. Регион привлекает путешественников уникальным сочетанием древних традиций и современности.
+                    Здесь вы найдёте живописные степи, уютные городки и динамичные мегаполисы, такие как Ростов-на-Дону, культурную столицу юга России.
+                    Побывайте в Новочеркасске, городе, где дышит история казачества, или отправьтесь в Ростовский заповедник, чтобы насладиться природой и увидеть редких животных. Прогуляйтесь по набережной Дона или отдохните на побережье Азовского моря. Для любителей активного отдыха &mdash; рыбалка, пешие и велопрогулки, а для тех, кто ищет уединение, &mdash; уединённые курорты и санатории.
+                    Ростовская область &mdash; это также место для любителей гастрономических путешествий. Знакомьтесь с местной кухней, пробуйте блюда донской кухни и наслаждайтесь гостеприимством местных жителей.</p>
+            </section>
+            <section class="cities">
+                <h2 class="cities__title">Города, которые стоит посетить</h2>
+                <div class="cities__group">
+                  <a href="rnd.html" target="_blank" class="city city_rnd">
+                    <p class="city__name">Ростов-на-Дону</p>
+                  </a>
+                  <a href="taganrog.html" target="_blank" class="city city_tg">
+                    <p class="city__name">Таганрог</p>
+                  </a>
+                </div>
+                <div class="cities__group">
+                  <a href="novocherkask.html" target="_blank" class="city city_novoch">
+                    <p class="city__name">Новочеркасск</p>
+                  </a>
+                  <a href="azov.html" target="_blank" class="city city_azov">
+                    <p class="city__name">Азов</p>
+                  </a>
+                  <a href="volgodonsk.html" target="_blank" class="city city_vg">
+                    <p class="city__name">Волгодонск</p>
+                  </a>
+                </div>
+            </section>
+            <section class="places">
+                <h2 class="places__title">Лучшие места для посещения</h2>
+                <ul class="places__list">
+                    <li class="place">
+                        <img src="./images/Region/logaPark.png" alt="Лога парк" class="place__image">
+                        <h2 class="place__title">Парк "Лога"</h2>
+                        <p class="place__paragraph">Парк «Лога́» &mdash; ландшафтный парк в станице Старой Каменского района Ростовской области. Получил название по Логово́й балке, в пойме которой находится.</p>
+                        <a href="https://loga.ru" class="place__link" target="_blank">УЗНАТЬ БОЛЬШЕ</a>
+                    </li>
+                    <li class="place place__photo-right">
+                        <img src="./images/Region/museum.png" alt="Музей истории донского казачества" class="place__image">
+                        <h2 class="place__title">Музей истории донского казачества</h2>
+                        <p class="place__paragraph">Один из старейших и крупнейших музеев юга России, основанный в 1886 году. В его коллекции более 150 тысяч экспонатов. Музей расположен в историческом здании в центре Новочеркасска и является ключевым центром изучения и сохранения наследия донского казачества.</p>
+                        <a href="http://www.novochmuseum.ru" class="place__link" target="_blank">УЗНАТЬ БОЛЬШЕ</a>
+                    </li>
+                    <li class="place">
+                        <img src="./images/Region/mayak.png" alt="Маяк в Мержаново" class="place__image">
+                        <h2 class="place__title">Маяк в Мержаново</h2>
+                        <p class="place__paragraph">Сооружение является бутафорским. Было создано в качестве декорации к телесериалу "Смотритель маяка".</p>
+                        <a href="https://oxyland.club" class="place__link" target="_blank">УЗНАТЬ БОЛЬШЕ</a>
+                    </li>
+                    <li class="place place__photo-right">
+                        <img src="./images/Region/sambek.png" alt="Самбекские высоты" class="place__image">
+                        <h2 class="place__title">Самбекские высоты</h2>
+                        <p class="place__paragraph">Самый большой региональный памятный комплекс, воздвигнутый в Неклиновском районе Ростовской области недалеко от села Самбек в честь советских воинов, в том числе 130-й и 416-й стрелковых дивизий, удостоенных почётного наименования «Таганрогских», сражавшихся на линии «Миус-фронта» в 1943 году.</p>
+                        <a href="https://самбек.рф" class="place__link" target="_blank">УЗНАТЬ БОЛЬШЕ</a>
+                    </li>
+                    <li class="place">
+                        <img src="./images/Region/tanais.png" alt="Танаис (музей-заповедник)" class="place__image">
+                        <h2 class="place__title">Танаис (музей-заповедник)</h2>
+                        <p class="place__paragraph">Один из крупнейших историко-археологических музеев-заповедников России под открытым небом. Танаис является первым из созданных в России археологических музеев-заповедников. Музей базируется на участках древнего города Танаиса. Город, названный по имени реки Танаис (Дон) был основан в её устье у впадения в Меотиду (Азовское море).</p>
+                        <a href="https://museum-tanais.ru/ru" class="place__link" target="_blank">УЗНАТЬ БОЛЬШЕ</a>
+                    </li>
+                    <li class="place place__photo-right">
+                        <img src="./images/Region/zapovednik.png" alt="Ростовский заповедник" class="place__image">
+                        <h2 class="place__title">Ростовский заповедник</h2>
+                        <p class="place__paragraph">Один из старейших природных заповедников России, основанный в 1995 году для охраны уникальных степных экосистем. Посетить его &mdash; отличная возможность увидеть непуганых птиц, вольные табуны донских мустангов, знаменитое озеро Маныч-Гудило и цветущие по весне поля ирисов и тюльпанов.</p>
+                        <a href="http://www.rgpbz.ru" class="place__link" target="_blank">УЗНАТЬ БОЛЬШЕ</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+          <div class="footer__info">
+            <img src="./images/Region/lightLogo.svg" alt="логотип России" class="footer__logo">
+            <p class="footer__copyright">&copy; 2025.</p>
+          </div>
+        </footer>
     </div>
 </body>
 </html>
